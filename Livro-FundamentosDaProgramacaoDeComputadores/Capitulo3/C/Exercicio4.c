@@ -12,7 +12,7 @@ int main()
     aumento = salario * 25 / 100;
     novoSalario = salario + aumento;
 
-    printf("Seu novo salario eh: R$ %.2f", novoSalario);
+    printf("Salario: R$ %.2f.", novoSalario);
     
     return 0;
 }
