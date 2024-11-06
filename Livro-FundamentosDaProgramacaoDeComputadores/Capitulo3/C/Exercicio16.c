@@ -8,12 +8,15 @@
 
 int main()
 {
-    float salMin, horasTrab;
+    float salMin, horas, horasTrab = 0;
 
     printf("Digite o salario minimo: ");
         scanf("%f", &salMin);
     printf("Digite as horas trabalhadas: ");
-        scanf("%f", &horasTrab);
+        scanf("%f", &horas);
     
+    
+    
+
     
 }
