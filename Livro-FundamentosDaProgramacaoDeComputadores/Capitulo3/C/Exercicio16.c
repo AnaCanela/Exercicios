@@ -8,15 +8,19 @@
 
 int main()
 {
-    float salMin, horas, horasTrab = 0;
+    float hTrab, salMin, valorHTrab = 0, salBruto = 0, imposto = 0, salLiq = 0;
 
+    printf("Digite as horas trabalhadas: ");
+        scanf("%f", &hTrab);
     printf("Digite o salario minimo: ");
         scanf("%f", &salMin);
-    printf("Digite as horas trabalhadas: ");
-        scanf("%f", &horas);
     
-    
-    
+    valorHTrab = salMin / 2;
+    salBruto = valorHTrab * hTrab;
+    imposto = salBruto * 3 / 100;
+    salLiq = salBruto - imposto;
 
-    
+    printf("O salario a receber eh: R$ %.2f", salLiq);
+
+    return 0;
 }
