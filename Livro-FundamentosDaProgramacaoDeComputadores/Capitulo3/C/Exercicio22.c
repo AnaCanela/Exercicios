@@ -22,9 +22,9 @@ int main()
     desconto = valorReais * 15 / 100;
     valorDesc = valorReais - desconto;
 
-    printf("Valor do quilowatt: R$ %.2f", valorKw);
-    printf("Valor a ser pago: R$ %.2f", valorReais);
-    printf("Valor com desconto: R$ %.2f", valorDesc);
+    printf("Valor do quilowatt: R$ %.2f\n", valorKw);
+    printf("Valor a ser pago: R$ %.2f\n", valorReais);
+    printf("Valor com desconto: R$ %.2f\n", valorDesc);
     
     return 0;
 }
