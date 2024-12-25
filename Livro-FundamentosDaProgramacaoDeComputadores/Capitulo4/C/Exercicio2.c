@@ -5,7 +5,7 @@
 
 int main()
 {
-    float nota1, nota2, nota3, media = 0;
+    float nota1, nota2, nota3, media = 0, notaExame = 0;
 
     printf("Digite as três notas: ");
     scanf("%f %f %f", &nota1, &nota2, &nota3);
@@ -15,7 +15,9 @@ int main()
     if(media >= 0 && media < 3){
         printf("Reprovado.\n");
     } else if(media >= 3 && media < 7){
+        notaExame = 12 - media;
         printf("Exame.\n");
+        printf("Nota para aprovação: %.1f\n\n", notaExame);
     } else if(media >= 7 && media <= 10){
         printf("Aprovado.\n");
     }
