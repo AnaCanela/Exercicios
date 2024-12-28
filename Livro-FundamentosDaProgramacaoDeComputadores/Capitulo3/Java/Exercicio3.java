@@ -19,7 +19,7 @@ public class Exercicio3 {
 
         double mediaPonderada = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3);
 
-        System.out.printf("\nA media ponderada é %.1f%n \n", mediaPonderada);
+        System.out.printf("\nA media ponderada é %.1f.%n", mediaPonderada);
 
         scan.close();
     }
