@@ -1,11 +1,10 @@
 #1. Faça um programa que receba quatro números inteiros, calcule e mostre a soma desses números.
-a = input('Digite o numero 1: ')
-b = input('Digite o numero 2: ')
-c = input('Digite o numero 3: ')
-d = input('Digite o numero 4: ')
-a = int(a)
-b = int(b)
-c = int(c)
-d = int(d)
+
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
+c = int(input("Digite o terceiro número: "))
+d = int(input("Digite o quarto número: "))
+
 soma = a + b + c + d
-print('A soma dos numeros eh', soma)
+
+print("\nA soma dos números é ", soma)
