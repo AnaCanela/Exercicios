@@ -24,6 +24,7 @@ public class Exercicio11 {
         System.out.printf("%nc) Raiz quadrada: %.1f", raizQ);
         System.out.printf("%nd) Raiz cúbica: %.1f%n", raizC);
 
+        scan.close();
     }
     
 }
