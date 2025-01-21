@@ -9,7 +9,7 @@ int main()
 {
     float precoFab, percLuc, percImp, lucro = 0, imposto = 0, valorFinal = 0;
 
-    printf("Digite o preco de fabrica co carro: ");
+    printf("Digite o preco de fabrica do carro: ");
         scanf("%f", &precoFab);
     printf("Digite o percentual de lucro: ");
         scanf("%f", &percLuc);
