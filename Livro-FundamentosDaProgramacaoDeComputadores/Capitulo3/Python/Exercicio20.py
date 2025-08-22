@@ -9,6 +9,6 @@ angulo = float(input("Digite o angulo: "))
 altura = float(input("Digite a altura: "))
 
 radiano = (angulo * 3.14) / 180
-escada = altura / sin(radiano)
+escada = altura / math.sin(radiano)
 
-print("A media da escada é ", escada)
+print("A medida da escada é", escada)
