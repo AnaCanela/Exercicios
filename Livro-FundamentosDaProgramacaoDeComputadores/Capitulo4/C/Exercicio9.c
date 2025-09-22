@@ -5,5 +5,5 @@ mês por extenso e hora:minuto.*/
 
 int main()
 {
-    int dia, mes, ano, hora, minuto
+    int dia, mes, ano, hora, minuto;
 }
